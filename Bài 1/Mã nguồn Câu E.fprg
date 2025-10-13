@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="t&#236;m s&#7889; nguy&#234;n t&#7889;"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-07 04:23:15 CH"/>
+        <attribute name="created" value="QWRtaW47TEFQVE9QLTEwTjVJVjMzOzIwMjUtMDktMjg7MDk6MDQ6MjMgU0E7Mjc2OA=="/>
+        <attribute name="edited" value="QWRtaW47TEFQVE9QLTEwTjVJVjMzOzIwMjUtMTAtMDc7MDQ6MjM6MTUgQ0g7MjsyODU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;NGUY&#7876;N MINH HI&#7870;U&quot;" newline="True"/>
+            <output expression="&quot;245752021610010&quot;" newline="True"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="2"/>
+            <output expression="&quot;Vui l&#242;ng nh&#7853;p s&#7889; b&#7845;t k&#7923;&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="n&gt;1">
+                <if expression="n % i = 0">
+                    <then>
+                        <if expression="n = i">
+                            <then>
+                                <output expression="&quot;&#272;&#226;y l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                                <breakpoint expression="" always="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Kh&#244;ng ph&#7843;i l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                                <breakpoint expression="" always="True"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <assign variable="i" expression="i+1"/>
+                        <if expression="n % i = 0">
+                            <then>
+                                <if expression="n=i">
+                                    <then/>
+                                    <else/>
+                                </if>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;Kh&#244;ng ph&#7843;i l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
