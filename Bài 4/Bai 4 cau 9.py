@@ -1,0 +1,5 @@
+print("Sinh vien: Nguyen Minh Hieu")
+print("Mssv: 245752021610010")
+print("*************************************")
+ds = input("Nhập chuỗi: ").split()
+print("List vừa nhập là:", ds)
